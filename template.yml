@@ -1,0 +1,83 @@
+id: com.yourname.body-explorer
+author: Your Name
+sdk_version: 4
+version: 0.2.0
+name: Anatomical Price Explorer
+description: Click a body part to see its price or its part number.
+
+settings:
+  - Display
+  - property: default_mode
+    name: Starting view
+    type: select
+    choices:
+      - ["Prices", "price"]
+      - ["Part numbers", "number"]
+    default: "price"
+  - property: price_tier
+    name: Price shown in lists
+    type: select
+    choices:
+      - ["Index (internal)", "index"]
+      - ["Out B", "outb"]
+      - ["Out C", "outc"]
+    default: "index"
+  - property: currency_symbol
+    name: Currency symbol
+    type: string
+    default: "$"
+  - property: panel_font_size
+    name: Info panel font size (px)
+    type: number
+    default: 15
+  - Colours
+  - property: background_colour
+    name: Background colour
+    type: color
+    default: "#ffffff"
+  - property: body_colour
+    name: Body colour
+    type: color
+    default: "#e6d3c3"
+  - property: outline_colour
+    name: Outline / text colour
+    type: color
+    default: "#6b5446"
+  - property: highlight_colour
+    name: Highlight colour
+    type: color
+    default: "#e4572e"
+
+data:
+  - dataset: items
+    key: number
+    name: Part number
+    description: The number assigned to each part
+    type: column
+    column: items::A
+  - dataset: items
+    key: code
+    name: Code
+    description: Must match a built-in code (e.g. C-HD, T-W, LL-KR)
+    type: column
+    column: items::B
+  - dataset: items
+    key: label
+    name: Description
+    type: column
+    column: items::C
+  - dataset: items
+    key: price_index
+    name: Index (internal) price
+    type: column
+    column: items::D
+  - dataset: items
+    key: price_outb
+    name: Out B price
+    type: column
+    column: items::E
+  - dataset: items
+    key: price_outc
+    name: Out C price
+    type: column
+    column: items::F

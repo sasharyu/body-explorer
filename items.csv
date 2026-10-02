@@ -1,0 +1,58 @@
+number,code,label,price_index,price_outb,price_outc
+1,WC-UN,Whole Un-embalmed Cadaver,2900,3357,4205
+2,WC-EM,Whole Embalmed Cadaver,2900,3357,4205
+3,WC-SKEL,Whole Skeleton,3450,3993,5003
+4,C-HD,Whole Cephalus,1050,1215,1523
+5,C-RHH,R Hemi-sected Head,600,695,870
+6,C-LHH,L Hemi-sected Head,600,695,870
+7,C-CS,Cephalus w/ Cervical Spine,1050,1215,1523
+8,C-OC,Occiput - C Spine,700,810,1015
+9,C-BS,Skull,1100,1273,1595
+10,C-BTR,R Temporal,400,463,580
+11,C-BTL,L Temporal,400,463,580
+12,C-BC,Calvaria,250,289,363
+13,C-BMR,Mandible,300,347,435
+14,C-BML,Maxilla,350,405,508
+15,C-WB,Whole Brain,600,695,870
+16,T-W,Whole Torso,2000,2315,2900
+17,T-WL,Whole Torso with Limbs,2600,3010,3770
+18,T-WSH,Torso with Shoulders,2050,2373,2973
+19,T-UL,Torso with Upper Limbs,2050,2373,2973
+20,T-LL,Torso with Lower Limbs,2050,2373,2973
+21,T-WHD,Torso with Cephalus,2150,2489,3118
+22,T-HDSH,Torso with Cephalus and Shoulders,2300,2662,3335
+23,T-HDWUL,Torso with Cephalus and Whole Upper Limbs,2600,3010,3770
+24,T-CTUL,"Cephalus, Thorax and Upper Limbs",2250,2604,3263
+25,T-SW,Whole Spine,1000,1158,1450
+26,T-SCV,Cervical Spine,850,984,1233
+27,T-STH,Thoracic Spine,850,984,1233
+28,T-SCT,Cervical-Thoracic Spine,900,1042,1305
+29,T-STL,Thoracic Lumbar Spine,900,1042,1305
+30,T-SLU,Lumbar Spine,850,984,1233
+31,T-SLS,Lumbo-sacral Spine,900,1042,1305
+32,T-SS,Sacral Spine,850,984,1233
+33,T-SCD,Spinal Cord,1000,1158,1450
+34,T-PW,Pelvis,750,868,1088
+35,T-PHR,R Hemi Pelvis,550,637,798
+36,T-PHL,L Hemi Pelvis,550,637,798
+37,T-PLL,Pelvis with Lower Limbs,1450,1678,2103
+38,T-PLLMF,Pelvis with LL at Mid Femur,1150,1331,1668
+39,T-ORG,Organ (individual or Paired),300,347,435
+40,UL-WR,R Upper Limb with Shoulder,750,868,1088
+41,UL-WL,L Upper Limb with Shoulder,750,868,1088
+42,UL-SR,R Shoulder,600,695,870
+43,UL-SL,L Shoulder,600,695,870
+44,UL-MR,R at Mid Humerus,700,810,1015
+45,UL-ML,L at Mid Humerus,700,810,1015
+46,LL-HPR,R Lower Limb with Hemi Pelvis,750,868,1088
+47,LL-HPL,L Lower Limb with Hemi Pelvis,750,868,1088
+48,LL-MR,R Lower Limb at Mid Femur,650,752,943
+49,LL-ML,L Lower Limb at Mid Femur,650,752,943
+50,LL-TFR,R Lower Limb at Tibia,550,637,798
+51,LL-TFL,L Lower Limb at Tibia,550,637,798
+52,LL-KR,R Knee,500,579,725
+53,LL-KL,L Knee,500,579,725
+54,LL-FR,R Foot,400,463,580
+55,LL-FL,L Foot,400,463,580
+56,O-PR,Other Partial Remains,,,
+57,H-LI,Latex Injected Head,1614,1868,2340
